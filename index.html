@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIF Search App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:ital,wght@1,300&family=Poppins:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="search-container">
+        <input type="text" id="search-box" value="alf" />
+        <button id="submit-btn">Submit</button>
+      </div>
+      <!--Loader: loads until the wrapper is ready to access-->
+      <div class="loader"></div>
+      <!--Wrapper: A data structure or software that contains ("wraps around") other data or software, so that the contained elements can exist in the newer system-->
+      <div class="wrapper"></div>
+    </div>
+    <!-- API Key-->
+    <script src="api-key.js"></script>
+    <!-- Javascript file-->
+    <script src="index.js"></script>
+  </body>
+</html>
